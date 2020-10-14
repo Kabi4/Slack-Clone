@@ -1,0 +1,46 @@
+.message{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #eee;
+    max-width: 50%;
+    width: max-content;
+}
+
+@media(max-width: 800px){
+    .message{
+        max-width: 75%;
+    }
+}
+
+@media(max-width: 500px){
+    .message{
+        max-width: 100%;
+    }
+}
+
+.message__image{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+.message__info{
+    padding-left: 1rem;
+}
+
+.message__info > h4 > span{
+    color: grey;
+    font-weight: 300;
+    padding-left: 0.4rem;
+    font-size: 1rem;
+}
+
+.message__info > p{
+    font-weight: 500;
+    font-size: 1rem;
+}

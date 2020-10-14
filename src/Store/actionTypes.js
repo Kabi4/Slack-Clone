@@ -1,0 +1,3 @@
+//AUTH
+export const LOGINFAILED = "LOGINFAILED";
+export const LOGINSUCCESS = "LOGINSUCCESS"; 

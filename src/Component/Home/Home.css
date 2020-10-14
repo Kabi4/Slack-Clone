@@ -1,0 +1,32 @@
+.home{
+    display: grid;
+    flex: 1;
+    text-align: center;
+    place-items: center;
+    font-family: 'Chilanka', cursive;
+}
+
+.my__logo{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.react__logo{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(180deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}

@@ -1,0 +1,92 @@
+.chat{
+    flex: 1;
+    overflow: overlay;
+    padding: 5px 10px;
+    padding-bottom: 5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.chat::-webkit-scrollbar{
+    display: none;
+}
+
+.chat__header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    background-color: #cccc;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat__header__left{
+    display: flex;
+    align-items: center;
+}
+
+.channel__name{
+    display: flex;
+    align-items: center;
+}
+
+.channel__name > strong{
+    text-transform: lowercase;
+    font-size: 1.6rem;
+}
+
+.chat__header__right > p{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.chat .MuiSvgIcon-root{
+    margin: 0 5px;
+    font-size: 1.6rem !important;
+}
+
+.chat__input{
+    position: fixed;
+    z-index: 1000;
+    left: 25%;
+    bottom: 0;
+    width: 68%;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    border-bottom: 2px darkgray solid;
+    padding: 5px 10px;
+    padding-right: 2.4rem;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+}
+
+.chat__input::-webkit-input-placeholder{
+    color: darkgray;
+    font-family: inherit;
+}
+
+.chat__input:focus{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.inputSend{
+    position: fixed;
+    z-index: 1100;
+    color: blue;
+    bottom: 2rem;
+    right: 3rem;
+}
+
+.chat__messages{
+    margin-top: 5rem;
+}
