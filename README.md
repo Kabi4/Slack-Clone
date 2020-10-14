@@ -1,5 +1,5 @@
 # `APP LIVE`  
-  WORKING ON IT
+  [Slack Live Here](https://slack-clone-9418b.web.app/)
 
 # `BUILD DETAILS`  
 
