@@ -2,7 +2,7 @@
    - [Slack Live Here](https://slack-clone-9418b.web.app/)
    
 # `Sneaky Peak`
-
+   - ![Spotify Snekay Peak](https://github.com/Kabi4/spotify-clone/blob/main/Sneaky%20Peak.png)
 # `BUILD DETAILS`  
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
